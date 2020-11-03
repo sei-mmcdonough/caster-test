@@ -121,7 +121,7 @@ extraction:
       # Default: LGTM chooses the file closest to the root of the repository (this may
       # fail if there are multiple candidates).
       solution: 
-        - caster.api/caster.api.csproj
+        - Caster.Api/Caster.Api.csproj
       # Override the autobuild process by specifying a list of custom build commands
       # to use instead. 
       #build_command:

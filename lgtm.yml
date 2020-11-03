@@ -124,7 +124,8 @@ extraction:
         - Caster.Api/Caster.Api.csproj
       # Override the autobuild process by specifying a list of custom build commands
       # to use instead. 
-      #build_command:
+      build_command:
+         - ls
       #  - cd src/caster.api 
       #  - dotnet build
       # By default, LGTM analyzes the code by building it. You can override this,

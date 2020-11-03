@@ -138,7 +138,7 @@ extraction:
         arguments: ""
         # Specify the version of .NET Core SDK to use.
         # Default: The version installed on the build machine.
-        version: 3.1
+        version: 3.1.101
       # Specify MSBuild settings.
       msbuild:
         # Specify a list of additional arguments to MSBuild. Default: empty.

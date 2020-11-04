@@ -16,7 +16,7 @@ path_classifiers:
   test:
     # Override LGTM's default classification of test files by excluding all files.
     # Classify all files in the top-level directories test/ and testsuites/ as test code.
-    - src
+    - src/**/*.cs
     # Classify all files with suffix `.test` as test code.
     #        Note: use only forward slash / as a path separator.
     #        Use ** to indicate an arbitrary parent path.
